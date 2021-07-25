@@ -1,0 +1,70 @@
+
+/* import the three weights of Lato font to use for the site */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
+
+:root {
+    --accent: #218ECC;
+    --light: #F5F9FC;
+    --dark: #364069;
+    --bluegray: #B7CEE8;
+    --dark80: rgba(54, 64, 105, .8);
+    --dark60: rgba(54, 64, 105, .6);
+    --transition: all 0.3s ease 0s;
+}
+
+.home {
+    display: inline;
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    color: black;
+}   
+.puzzle {
+    width: 400px; 
+    height: 450px;
+}
+
+
+/* WRITING PAGE STYLES */
+.content {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.linkbox {
+    border-radius: 25px;
+    background: cornflowerblue;
+    padding: 80px;
+    text-decoration: none;
+}
+
+
+
+
+
+.quick-bio {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    color: black;
+}
+.dial {
+    display: block;
+}
+.img-container {
+    position: relative;
+}
+.img-container top {
+    position: absolute;
+    z-index: 1;
+}
+.links {
+    display: inline;
+    color: tomato;
+    text-decoration: none;
+}
+
+p, a, button {
+    font-family: "Lato", sans-serif;
+    color: var(--light);
+}
+
