@@ -16,41 +16,63 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        display: "flex",
+        justifyContent: "space-between",
       }}
     >
-      <h1 class="home">
+      <h1>
         <Link
           to="/"
           style={{
             color: `black`,
             textDecoration: `none`,
+            fontWeight: 200,
+            fontSize: `1.5rem`,
           }}
         >
           {siteTitle}
         </Link>
       </h1>
-      <h2 class="links">
-        <Link
-          to="/writing/"
-          style = {{
-            color: `gray`,
-            textDecoration: `none`,
-          }}
-        >
-          Writing
-        </Link>
-      </h2>
-      <h2 class="links">
-        <Link
-          to="/photography/"
-          style={{
-            color: `black`,
-            textDecoration: `none`,
-          }}
-        >
-          Photography
-        </Link>
-      </h2>
+      <div style={{display: "flex", justifyContent: "flex-end",}}>
+        <h2 class="links">
+          <Link
+            to="/coding/"
+            style = {{
+              color: `cornflowerblue`,
+              textDecoration: `none`,
+              fontSize: `1rem`,
+            }}
+          >
+            Coding
+          </Link>
+        </h2>
+        <h2 style={{fontWeight: "200", paddingLeft: 5, paddingRight: 5}}> | </h2>
+        <h2 class="links">
+          <Link
+            to="/writing/"
+            style = {{
+              color: `cornflowerblue`,
+              textDecoration: `none`,
+              fontSize: `1rem`,
+            }}
+          >
+            Writing
+          </Link>
+        </h2>
+        <h2 style={{fontWeight: "200", paddingLeft: 5, paddingRight: 5}}> | </h2>
+        <h2 class="links">
+          <Link
+            to="/photography/"
+            style={{
+              color: `cornflowerblue`,
+              textDecoration: `none`,
+              fontSize: `1rem`,
+            }}
+          >
+            Photography
+          </Link>
+        </h2>
+      </div>
     </div>
   </header>
 )

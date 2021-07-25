@@ -1,3 +1,7 @@
+/* import the three weights of Lato font to use for the site */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -11,7 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -19,17 +23,9 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  
+  background-color: #f7f5f0; /* not sure how I feel about this background, keeping it for now */ 
 }
-/* background: 
-    linear-gradient(
-      var(--dark60),
-      var(--dark60)
-    ), 
-    url(../images/mountain-background.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
+
 article,
 aside,
 details,

@@ -13,16 +13,34 @@
     --transition: all 0.3s ease 0s;
 }
 
-.home {
-    display: inline;
-    font-family: "Lato", sans-serif;
-    font-weight: 200;
-    color: black;
-}   
-.puzzle {
-    width: 400px; 
-    height: 450px;
+/* MAIN PAGE STYLES */
+.info {
+    font-family: "Montserrat", sans-serif;
+    color: black;   
 }
+.hello {
+    display: inline;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+}   
+.quick-bio {
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.bio {
+    padding-top: 25px;
+    margin-right: 25%;
+    /* border: 1px solid blue; */
+}
+.bio > p {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.25rem;
+}
+
 
 
 /* WRITING PAGE STYLES */
@@ -39,14 +57,6 @@
 }
 
 
-
-
-
-.quick-bio {
-    font-family: "Lato", sans-serif;
-    font-weight: 100;
-    color: black;
-}
 .dial {
     display: block;
 }
