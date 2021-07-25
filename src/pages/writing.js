@@ -9,24 +9,26 @@ import "../components/styles.css"
 const WritingPage = () => (
   <Layout>
     <Seo title="Writing" />
-    <body>
-      <h1>Hi from the Writing page!</h1>
-      <section>
-        <div class="content">
-          <a class="linkbox">link #1 </a>
-          <a class="linkbox">link #2 </a>
-          <a class="linkbox">link #3 </a>
-          <a class="linkbox">link #4 </a>
-          <a class="linkbox">link #5 </a>
-          <a class="linkbox">link #6 </a>
-          <a class="linkbox">link #7 </a>
-          <Link to="/" class="linkbox">
-            link #8
-          </Link>
-        </div>
-      </section>
-      
-    </body>
+    <main>
+      <body>
+        <h1>Hi from the Writing page!</h1>
+        <section>
+          <div class="content">
+            <a class="linkbox">link #1 </a>
+            <a class="linkbox">link #2 </a>
+            <a class="linkbox">link #3 </a>
+            <a class="linkbox">link #4 </a>
+            <a class="linkbox">link #5 </a>
+            <a class="linkbox">link #6 </a>
+            <a class="linkbox">link #7 </a>
+            <Link to="/link8/" class="linkbox">
+              link #8
+            </Link>
+          </div>
+        </section>
+        
+      </body>
+    </main>
     
   </Layout>
 )

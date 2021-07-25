@@ -19,16 +19,35 @@
     color: black;   
 }
 .hello {
-    display: inline;
+    /* display: inline; */
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 5rem;
-}   
+    
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid gray; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin-right: 44%;
+    animation:
+      typing 4s steps(50, end),
+      blink-caret 1.2s step-end infinite;
+}
 .quick-bio {
     margin-top: 10px;
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
     font-size: 1.5rem;
+    /* border: 1px solid green; */
+}
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 55% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: gray; }
 }
 .bio {
     padding-top: 25px;
@@ -40,7 +59,13 @@
     font-family: "Montserrat", sans-serif;
     font-size: 1.25rem;
 }
-
+.sunimg {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    bottom: auto;
+    right: auto;
+}
 
 
 /* WRITING PAGE STYLES */
@@ -55,7 +80,17 @@
     padding: 80px;
     text-decoration: none;
 }
-
+.article {
+    font-family: "Montserrat", sans-serif;
+}
+.article p {
+    color: black;
+    font-size: 1.25rem;
+    line-height: 125%;
+}
+.article h5 {
+    color: gray;
+}
 
 .dial {
     display: block;
@@ -69,7 +104,7 @@
 }
 .links {
     display: inline;
-    color: tomato;
+    color: #FF9900;
     text-decoration: none;
 }
 
