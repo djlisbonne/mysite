@@ -23,7 +23,8 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-  background-color: #f7f5f0; /* not sure how I feel about this background, keeping it for now */ 
+  /* background-color: #f7f5f0;  */
+  background-color: white;
 }
 
 article,

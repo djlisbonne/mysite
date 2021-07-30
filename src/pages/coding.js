@@ -4,12 +4,26 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import { FaChess } from "react-icons/fa"
+
 const CodingPage = () => (
   <Layout>
     <Seo title="Coding" />
-    <h1>Hi from the Coding page!</h1>
-    <p>Welcome to some of my coding projects</p>
-    <Link to="/">Go back to the homepage</Link>
+    <main>
+      <body>
+        <h1>Hi from the Coding page!</h1>
+        <section>
+          <div class="content">
+            <a class="linkbox">link #1 </a>
+            <a class="linkbox">link #2 </a>
+            <Link to="/notebook8/" class="linkbox">
+              <FaChess/>
+            </Link>
+          </div>
+        </section>
+        
+      </body>
+    </main>
   </Layout>
 )
 
