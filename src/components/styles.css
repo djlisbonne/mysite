@@ -20,7 +20,7 @@
 }
 .hello {
     /* display: inline; */
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     font-weight: 400;
     font-size: 5.25rem;
     
@@ -42,7 +42,7 @@
 /* The typing effect */
 @keyframes typing {
     from { width: 0 }
-    to { width: 59.5% }
+    to { width: 63.5% }
 }
 /* The typewriter cursor effect */
 @keyframes blink-caret {

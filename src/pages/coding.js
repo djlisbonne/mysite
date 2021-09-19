@@ -17,7 +17,7 @@ const CodingPage = () => (
             <a class="linkbox">link #1 </a>
             <a class="linkbox">link #2 </a>
             <Link to="/notebook8/" class="linkbox">
-              <FaChess/>
+              <FaChess size={36}/>
             </Link>
           </div>
         </section>
