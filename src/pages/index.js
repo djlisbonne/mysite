@@ -34,7 +34,7 @@ const IndexPage = () => (
                 .typeString("Hi,")
                 .pauseFor(500)
                 .typeString(" I'm David.")
-                .pauseFor(60000)
+                .pauseFor(3600000)
                 .start()
             }}/>
         </div>

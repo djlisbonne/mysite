@@ -5,12 +5,13 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import "../components/styles.css"
+import { BsArrowLeftShort } from "react-icons/bs"
 
 const Link8 = () => (
   <Layout>
     <Seo title="Story #8" />
     <div class="article">
-        <h1>Being a watch enthusiast in the generation that doesn't wear watches</h1>
+        <h1><Link to="/coding/"><BsArrowLeftShort/></Link>Being a watch enthusiast in the generation that doesn't wear watches</h1>
         <h5>By David Lisbonne | 4.22.20</h5>
         <hr/>
         <section>
