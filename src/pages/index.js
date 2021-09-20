@@ -1,12 +1,10 @@
 import * as React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import {FaLongArrowAltRight} from "react-icons/fa"
 import {BsArrowRightShort} from "react-icons/bs"
 import {FcHome} from "react-icons/fc"
-import {IoSchool} from "react-icons/io5"
+import {IoSchool, IoLogoFirebase} from "react-icons/io5"
 import {GrReactjs, GrGatsbyjs, GrHtml5, GrCss3, GrJs} from "react-icons/gr"
 
 import "../components/styles.css"
@@ -15,7 +13,7 @@ import Typewriter from 'typewriter-effect';
 const IndexPage = () => (
   <Layout>
     <Seo title="David Lisbonne"/>
-    <body class="headline" id="mainapp">
+    <body class="app">
       <section class="info">
         <div class="hello">
           <Typewriter onInit={(typewriter) => {
@@ -48,12 +46,9 @@ const IndexPage = () => (
             hobbyist writer.
           </p>
           <p>
-            I'm passionate about building products that bring meaningful quality of life
-            improvements to consumers. Whether it's through empowering financial freedom, or streamlining
+            I'm passionate about building products that bring meaningful impacts 
+            to consumers. Whether it's through empowering financial freedom, or streamlining
             work life, I want to build tools that expand the world's most valuable resource: <strong><i>human capital</i></strong>.
-          </p>
-          <p>
-            
           </p>
         </div>
       </section>
@@ -66,6 +61,9 @@ const IndexPage = () => (
             <ul>
               <li>
               <span id="icon">Gatsby <GrGatsbyjs size={16}/></span>
+              </li>
+              <li>
+                <span id="icon">Firebase <IoLogoFirebase size={16}/></span>
               </li>
               <li>
                 <span id="icon">React <GrReactjs size={16}/></span>

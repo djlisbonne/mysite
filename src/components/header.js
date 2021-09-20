@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 // custom stylesheet
 import "./styles.css"
-import { FaBlackberry } from "react-icons/fa"
+// import { FaBlackberry } from "react-icons/fa"
 
 const Header = ({ siteTitle }) => (
   <header
