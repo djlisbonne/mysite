@@ -6,13 +6,6 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `markdown-pages`,
-        path: `${__dirname}/src/markdown-pages`,
-      },
-    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {

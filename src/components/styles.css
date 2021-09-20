@@ -15,59 +15,59 @@
 
 /* MAIN PAGE STYLES */
 .info {
+    /* border: 1px solid blue; */
+}
+.info > * {
     font-family: "Montserrat", sans-serif;
     color: black;   
 }
-.hello {
-    /* display: inline; */
-    /* font-family: "Montserrat", sans-serif; */
+.hello > *{
     font-weight: 400;
-    font-size: 5.25rem;
-    
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .10em solid gray; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin-right: 40.5%;
-    animation:
-      typing 4s steps(25, end),
-      blink-caret 1.2s step-end infinite;
+    font-size: 3.9rem;
 }
 .quick-bio {
-    margin-top: 10px;
+    margin-top: 2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 100;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     /* border: 1px solid green; */
-}
-/* The typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 63.5% }
-}
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: gray; }
-}
-.typewrite {
-    color: black;
 }
 .bio {
     padding-top: 25px;
     margin-right: 25%;
+    width: 100%;
     /* border: 1px solid blue; */
 }
 .bio > p {
     color: black;
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.55rem;
+    font-weight: 400;
+    line-height: 125%;
+    padding: 5px;
 }
-.sunimg {
-    position: absolute;
-    left: 0;
-    top: 45%;
-    bottom: auto;
-    right: auto;
+.fun-facts {
+    padding-top: 25px;
+    margin-right: 25%;
+    width: 100%;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.fun-facts > p {
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: -10px;
+}
+/* icon centering not working... */
+.fun-facts > #icon {
+    display: flex;
+    align-items: center;
+}
+/* also not working... */
+.fun-facts > span {
+    white-space:pre;
 }
 
 

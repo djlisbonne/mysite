@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 
 // custom stylesheet
 import "./styles.css"
+import { FaBlackberry } from "react-icons/fa"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -41,6 +42,8 @@ const Header = ({ siteTitle }) => (
               color: `cornflowerblue`,
               textDecoration: `none`,
               fontSize: `1rem`,
+              paddingBottom: `5px`,
+              borderBottom: `0.8px solid darkgray`,
             }}
           >
             Coding
@@ -54,6 +57,8 @@ const Header = ({ siteTitle }) => (
               color: `cornflowerblue`,
               textDecoration: `none`,
               fontSize: `1rem`,
+              paddingBottom: `5px`,
+              borderBottom: `0.8px solid darkgray`,
             }}
           >
             Writing
@@ -67,6 +72,8 @@ const Header = ({ siteTitle }) => (
               color: `cornflowerblue`,
               textDecoration: `none`,
               fontSize: `1rem`,
+              paddingBottom: `5px`,
+              borderBottom: `0.8px solid darkgray`,
             }}
           >
             Photography
