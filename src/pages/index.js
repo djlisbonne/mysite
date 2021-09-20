@@ -52,7 +52,7 @@ const IndexPage = () => (
           </p>
         </div>
       </section>
-      <hr></hr>
+      {/* <hr></hr> */}
       <section class="fun-facts">
         <p><b>Some Extras</b></p>
         <ul>
