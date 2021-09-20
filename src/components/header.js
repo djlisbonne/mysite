@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `#FF9900`,
+            color: `#EAB88C`,
             textDecoration: `none`,
             fontWeight: 300,
             fontSize: `1.5rem`,

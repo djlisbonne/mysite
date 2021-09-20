@@ -6,7 +6,7 @@
 :root {
     --accent: #218ECC;
     --light: #F5F9FC;
-    --dark: #364069;
+    --dark: #414d81;
     --bluegray: #B7CEE8;
     --dark80: rgba(54, 64, 105, .8);
     --dark60: rgba(54, 64, 105, .6);
@@ -24,7 +24,7 @@
 }
 .info > * {
     font-family: "Montserrat", sans-serif;
-    color: black;   
+    color: black;
 }
 .hello > *{
     font-weight: 400;

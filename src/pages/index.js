@@ -24,7 +24,7 @@ const IndexPage = () => (
                 .typeString("I'm David.")
                 .pauseFor(1000)
                 .deleteAll()
-                .typeString("Thanks for visiting my site")
+                .typeString("Thanks for visiting my site,")
                 .pauseFor(800)
                 .deleteAll()
                 .typeString("I hope you enjoy!")
