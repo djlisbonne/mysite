@@ -19,9 +19,6 @@
     height: 30px;
     color: whitesmoke;
 }
-.info {
-    /* border: 1px solid blue; */
-}
 .info > * {
     font-family: "Montserrat", sans-serif;
     color: black;
