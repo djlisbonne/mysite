@@ -131,7 +131,7 @@
     color: black;
     font-weight: 200;
     font-size: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.75rem;
 }
 
 .photoapp {
@@ -148,12 +148,13 @@
     display: flex;
     flex-wrap: wrap;    
     align-items: center;
+    justify-content: center;
     gap: 25px;
     /* border: 2px solid green; */
 }
 
 .img-grid #v {
-    width: 250px;
+    width: 275px;
     height: 375px;
 }
 

@@ -4,7 +4,9 @@ import { Link } from "gatsby"
 
 // custom stylesheet
 import "./styles.css"
-// import { FaBlackberry } from "react-icons/fa"
+import { FaCameraRetro, FaRegFileAlt, FaEnvelope } from "react-icons/fa"
+import { VscCode } from "react-icons/vsc"
+
 
 const Header = ({ siteTitle }) => (
   <header
@@ -25,7 +27,7 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `#EAB88C`,
+            color: `cornflowerblue`,
             textDecoration: `none`,
             fontWeight: 300,
             fontSize: `1.5rem`,
@@ -46,7 +48,7 @@ const Header = ({ siteTitle }) => (
               borderBottom: `0.8px solid darkgray`,
             }}
           >
-            Coding
+            <VscCode size={18}/>
           </Link>
         </h2>
         <h2 style={{fontWeight: "200", paddingLeft: 5, paddingRight: 5}}> | </h2>
@@ -61,7 +63,7 @@ const Header = ({ siteTitle }) => (
               borderBottom: `0.8px solid darkgray`,
             }}
           >
-            Writing
+            <FaRegFileAlt size={18}/>
           </Link>
         </h2>
         <h2 style={{fontWeight: "200", paddingLeft: 5, paddingRight: 5}}> | </h2>
@@ -76,9 +78,24 @@ const Header = ({ siteTitle }) => (
               borderBottom: `0.8px solid darkgray`,
             }}
           >
-            Photography
+            <FaCameraRetro size={18}/>
           </Link>
         </h2>
+        {/* <h2 style={{fontWeight: "200", paddingLeft: 5, paddingRight: 5}}> | </h2>
+        <h2 class="links">
+          <Link
+            to="/contactform/"
+            style={{
+              color: `cornflowerblue`,
+              textDecoration: `none`,
+              fontSize: `1rem`,
+              paddingBottom: `5px`,
+              borderBottom: `0.8px solid darkgray`,
+            }}
+          >
+            <FaEnvelope size={18}/>
+          </Link>
+        </h2> */}
       </div>
     </div>
   </header>
