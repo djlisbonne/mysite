@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const ImageGrid = ({ setSelectedImg }) => {
 
     const { docs } = useFirestore('imagedocs');
-
+    // need to think about adding some props to pass through the photo captions!
     return (
         <div className="img-grid">
             { docs && docs.map(doc => (

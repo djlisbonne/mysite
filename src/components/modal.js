@@ -12,6 +12,7 @@ const Modal = ({ selectedImg, setSelectedImg }) => {
     return (
         <div className="backdrop" onClick={handleClickOut}>
             <img src={selectedImg} alt="selected img" />
+            {/* <figcaption className="bordertext"> location: san francisco shot on: Minolta SRT101 35mm</figcaption> */}
         </div>
     )
 }
