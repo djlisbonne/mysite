@@ -1,6 +1,6 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.davidlisbonne.com>">
+  <a href="https://www.davidlisbonne.com">
     <img alt="dlfavcon" src="src/images/customfavico.png" width="60"/>
   </a>
 </p>
