@@ -10,7 +10,7 @@ import { BsArrowLeftShort } from "react-icons/bs"
 
 const Notebook8 = () => (
   <Layout>
-    <Seo title="Coding Notebook #8" />
+    <Seo title="Rating Distribution" />
     <div class="notebook">
         <h1><Link to="/coding/"><BsArrowLeftShort/></Link>Rating Distribution of Lichess Dataset</h1>
         <h6>Link to Jupyter notebook code <a href="https://github.com/djlisbonne/ChessAnalysis/blob/main/rating_distributions.ipynb" target="_blank">here</a>.</h6>
@@ -23,7 +23,7 @@ const Notebook8 = () => (
         </p>
         <h3>The Notebook</h3>
         <p id="first">
-            The first cells of the notebook impor the necessary libraries, load the Lichess games,
+            The first cells of the notebook import the necessary libraries, load the Lichess games,
             and select the sections of data that are needed for the notebook. In this case, I'm using Pandas for 
             data formatting and manipulation, and Matplotlib to create the lineplots.
         </p>

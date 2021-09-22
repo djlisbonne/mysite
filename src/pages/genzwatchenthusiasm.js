@@ -9,7 +9,7 @@ import { BsArrowLeftShort } from "react-icons/bs"
 
 const Link8 = () => (
   <Layout>
-    <Seo title="Story #8" />
+    <Seo title="Watch Enthusiasm" />
     <div class="article">
         <h1><Link to="/writing/"><BsArrowLeftShort/></Link>Being a watch enthusiast in the generation that doesn't wear watches</h1>
         <h5>By David Lisbonne | 4.22.20</h5>
